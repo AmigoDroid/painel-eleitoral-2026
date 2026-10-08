@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "start": "serve -s dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +13,7 @@
     "brazil-map": "^1.1.8",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "serve": "^14.2.6",
     "vite": "^7.1.7"
   }
 }
